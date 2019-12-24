@@ -1,0 +1,45 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.cursorStyle": "line",
+    "git.autofetch": true,
+    "editor.fontLigatures": true,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontWeightBold": "normal",
+    "editor.formatOnType": true,
+    "workbench.fontAliasing": "auto",
+    "terminal.integrated.scrollback": 1000000,
+    "editor.wordWrap": "on",
+    "workbench.activityBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontWeight": "400",
+    "editor.fontSize": 13,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "go.autocompleteUnimportedPackages": true,
+    "go.formatTool": "goimports",
+    "yaml.schemas": {
+        "file:///Users/lebowski/.vscode/extensions/atlassian.atlascode-2.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "go.useLanguageServer": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "atlascode.jira.jqlList": [
+        {
+            "enabled": true,
+            "id": "0347d7b6-1923-40b5-9a85-57aeaff87f7e",
+            "monitor": true,
+            "name": "My intimetec Issues",
+            "query": "assignee = currentUser() AND project = Cartos  AND status != done",
+            "siteId": "7ef42cc6-b561-454d-8243-404d9ff73694"
+        }
+    ]
+}
