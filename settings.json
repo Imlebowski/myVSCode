@@ -1,45 +1,62 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.minimap.enabled": false,
-    "editor.tabCompletion": "on",
-    "editor.wordBasedSuggestions": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "terminal.integrated.cursorStyle": "line",
-    "git.autofetch": true,
+    "breadcrumbs.enabled": true,
+
     "editor.fontLigatures": true,
-    "window.zoomLevel": 0,
-    "terminal.integrated.fontWeightBold": "normal",
-    "editor.formatOnType": true,
-    "workbench.fontAliasing": "auto",
-    "terminal.integrated.scrollback": 1000000,
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
     "editor.wordWrap": "on",
-    "workbench.activityBar.visible": true,
-    "breadcrumbs.enabled": false,
-    "workbench.iconTheme": "vscode-icons",
     "editor.fontWeight": "400",
-    "editor.fontSize": 13,
-    "terminal.integrated.shell.osx": "/bin/zsh",
+
+    "explorer.confirmDragAndDrop": false,
+
+    "files.autoSave": "afterDelay",
+
+    "git.autofetch": true,
+
     "go.autocompleteUnimportedPackages": true,
     "go.formatTool": "goimports",
-    "yaml.schemas": {
-        "file:///Users/lebowski/.vscode/extensions/atlassian.atlascode-2.2.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-    },
+    "go.useLanguageServer": true,
+
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.scrollback": 1000000,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+
     "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "explorer.confirmDragAndDrop": false,
-    "go.useLanguageServer": true,
+
+    "window.zoomLevel": 0,
+    
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    // "workbench.fontAliasing": "auto",
+    "workbench.activityBar.visible": true,    
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "vsicons.dontShowNewVersionMessage": true,
-    "atlascode.jira.jqlList": [
-        {
-            "enabled": true,
-            "id": "0347d7b6-1923-40b5-9a85-57aeaff87f7e",
-            "monitor": true,
-            "name": "My intimetec Issues",
-            "query": "assignee = currentUser() AND project = Cartos  AND status != done",
-            "siteId": "7ef42cc6-b561-454d-8243-404d9ff73694"
-        }
-    ]
+    "remote.SSH.remotePlatform": {
+        "dune": "linux",
+        "z600devdune015.boi.rd.hpicorp.net": "linux",
+        "DuneDev": "linux"
+    },
+    "C_Cpp.clang_format_style": "Visual Studio",
+    "resmon.disk.format": "PercentUsed",
+    "editor.mouseWheelScrollSensitivity": 3,
+    "editor.smoothScrolling": true,
+    "editor.cursorSurroundingLines": 3,
+    "resmon.show.battery": false,
+    "resmon.show.cpufreq": false,
+    "cmake.configureOnOpen": false,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.automationShell.linux": "",
+    "merge-conflict.codeLens.enabled": false,
+    "editor.suggest.statusBar.visible": true,
+    "workbench.colorTheme": "Community Material Theme High Contrast",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "scm.diffDecorationsGutterWidth": 4,
 }
